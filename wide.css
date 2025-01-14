@@ -75,10 +75,7 @@ h3{
     color: #6FBF44;
 }
 
-@media screen and (max-width: 900px) {
-    .link-header none; 
-    .image-wide margin: 149px 22px 334px 14px;
+
     
 
     
-}
