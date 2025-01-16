@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     font-family: 'poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ header {
     margin-right: 32px;
 }
 
-.button-header{
+.button-header {
     background-color: #6FBF44;
     border-radius: 6px;
     border: 1px;
@@ -34,22 +34,22 @@ header {
 
 }
 
-.image-wide{
+.image-wide {
     width: 595px;
     height: 500px;
     margin-left: 121;
     display: inline-block;
-    
+
 
 }
 
-section{
+section {
     display: inline-block;
     margin-left: 84px;
 
 }
 
-h1{
+h1 {
     font-weight: 700;
     font-size: 62px;
     line-height: 82px;
@@ -58,24 +58,50 @@ h1{
 
 }
 
-h2{
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 33px;
-     color: #4B505A;
-     width: 493px;
-     margin-top: 47px;
-     margin-bottom: 55px;
+h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
 }
 
-h3{
+h3 {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     color: #6FBF44;
 }
 
+@media screen and (max-width: 850px) {
+    .link-header {
+        display: none;
+    }
 
-    
+    .button-header {
+        width: 91px;
+        height: 31px;
+        margin-left: 400px;
+    }
 
-    
+    section {
+        text-align: center;
+        margin: 40px 70px;
+        position: relative;
+        margin-top: 100px;
+        display: block;
+    }
+
+    .image-responsive {
+        padding: 0;
+        position: absolute;
+        margin-top: 400px;
+        width: 100vw;
+
+
+    }
+
+
+}
